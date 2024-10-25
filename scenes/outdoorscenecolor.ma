@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
-//Name: outdoorscene.ma
-//Last modified: Thu, Oct 24, 2024 09:14:05 PM
+//Name: outdoorscenecolor.ma
+//Last modified: Thu, Oct 24, 2024 09:14:31 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 14.6.1";
-fileInfo "UUID" "BEF5C7C2-9C40-8446-A871-54A1DF9BF495";
+fileInfo "UUID" "FA4287D5-9548-DFB2-F708-5980DEC6705A";
 createNode transform -s -n "persp";
 	rename -uid "EE1F95D2-CF4A-D08C-EEED-2E92FD248C81";
 	setAttr ".v" no;
@@ -61184,4 +61184,4 @@ connectAttr "lambert28.msg" ":defaultShaderList1.s" -na;
 connectAttr "lambert29.msg" ":defaultShaderList1.s" -na;
 connectAttr "lambert30.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
-// End of outdoorscene.ma
+// End of outdoorscenecolor.ma
