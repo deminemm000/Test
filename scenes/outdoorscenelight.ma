@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
-//Name: outdoorscenecolor.ma
-//Last modified: Mon, Oct 28, 2024 05:30:05 PM
+//Name: outdoorscenelight.ma
+//Last modified: Mon, Oct 28, 2024 05:39:38 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiSkyDomeLight"
@@ -11,19 +11,19 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 14.6.1";
-fileInfo "UUID" "93710C52-924B-E603-DDAC-51B733E90F4B";
+fileInfo "UUID" "23DFEEBB-B342-2A53-03DA-11A5EC32B6B6";
 createNode transform -s -n "persp";
 	rename -uid "EE1F95D2-CF4A-D08C-EEED-2E92FD248C81";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 14.396600212365971 12.523976978032408 8.6245284816356627 ;
-	setAttr ".r" -type "double3" -23.138352735757199 60.19999999998609 6.3998417037503875e-15 ;
+	setAttr ".t" -type "double3" 14.233531063973162 13.311351306728154 7.2780531855301991 ;
+	setAttr ".r" -type "double3" -25.538352735783043 60.999999999987367 3.2802099511207896e-15 ;
 	setAttr ".rp" -type "double3" 8.8817841970012523e-16 8.8817841970012523e-16 -1.7763568394002505e-15 ;
 	setAttr ".rpt" -type "double3" -1.9765325622779405e-15 -4.4051780655796662e-16 -5.34657386386608e-17 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "9A2B33B7-A947-9857-9C02-0D9533516075";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 20.192738396848306;
+	setAttr ".coi" 20.192738396847748;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -60532,7 +60532,7 @@ createNode aiPhysicalSky -n "aiPhysicalSky1";
 	setAttr ".sun_size" 0.5899999737739563;
 	setAttr ".sun_tint" -type "float3" 1 0.97866213 0.96600002 ;
 	setAttr ".sky_tint" -type "float3" 0.37199998 0.46728855 1 ;
-	setAttr ".intensity" 4.8520002365112305;
+	setAttr ".intensity" 4.3899998664855957;
 select -ne :time1;
 	setAttr -av -k on ".cch";
 	setAttr -av -k on ".ihi";
@@ -61204,4 +61204,4 @@ connectAttr "lambert30.msg" ":defaultShaderList1.s" -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "aiSkyDomeLightShape1.ltd" ":lightList1.l" -na;
 connectAttr "aiSkyDomeLight1.iog" ":defaultLightSet.dsm" -na;
-// End of outdoorscenecolor.ma
+// End of outdoorscenelight.ma
