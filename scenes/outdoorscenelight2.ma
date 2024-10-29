@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
-//Name: outdoorscenelight.ma
-//Last modified: Tue, Oct 29, 2024 11:03:24 AM
+//Name: outdoorscenelight2.ma
+//Last modified: Tue, Oct 29, 2024 11:03:54 AM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiSkyDomeLight"
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 14.6.1";
-fileInfo "UUID" "96B78CB5-D346-F09B-211B-989E5D6F4301";
+fileInfo "UUID" "07F0758E-8044-7B8D-EE45-5893BDD9AE40";
 createNode transform -s -n "persp";
 	rename -uid "EE1F95D2-CF4A-D08C-EEED-2E92FD248C81";
 	setAttr ".v" no;
@@ -62890,4 +62890,4 @@ connectAttr "aiSkyDomeLightShape1.ltd" ":lightList1.l" -na;
 connectAttr "aiAreaLightShape1.ltd" ":lightList1.l" -na;
 connectAttr "aiSkyDomeLight1.iog" ":defaultLightSet.dsm" -na;
 connectAttr "aiAreaLight1.iog" ":defaultLightSet.dsm" -na;
-// End of outdoorscenelight.ma
+// End of outdoorscenelight2.ma
