@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
-//Name: Finalroomwhitebox.ma
-//Last modified: Fri, Nov 15, 2024 06:54:47 PM
+//Name: Finalroomwhitebox2.ma
+//Last modified: Fri, Nov 15, 2024 06:55:08 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires "mtoa" "5.4.2.1";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 14.6.1";
-fileInfo "UUID" "C3758847-C844-1108-978B-D1A14BE6E572";
+fileInfo "UUID" "A36E005C-6A46-7D99-C68B-31AE09FFB34B";
 createNode transform -s -n "persp";
 	rename -uid "FCD34CE5-E440-C945-CD93-C2A960ABB470";
 	setAttr ".v" no;
@@ -4677,4 +4677,4 @@ connectAttr "pCylinderShape21.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape27.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape29.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape30.iog" ":initialShadingGroup.dsm" -na;
-// End of Finalroomwhitebox.ma
+// End of Finalroomwhitebox2.ma
